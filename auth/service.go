@@ -1,8 +1,9 @@
 package auth
 
 import (
+	"errors"
+
 	"github.com/dgrijalva/jwt-go"
-	"google.golang.org/protobuf/internal/errors"
 )
 
 type Service interface {
